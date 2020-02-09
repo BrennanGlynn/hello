@@ -1,21 +1,19 @@
-import React, { useState } from 'react'
-import Typography from '@material-ui/core/Typography'
-import Grow from '@material-ui/core/Grow'
+import React from 'react'
 import './App.css'
+import { css } from 'emotion'
+import BorderBox from './components/BorderBox'
+
+const styles = css`
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+`
 
 function App() {
-  const [checked, setChecked] = useState(true)
-  const toggleChecked = () => setChecked(checked => !checked)
   return (
-    <div className="App">
-      <header className="App-header">
-        <button onClick={toggleChecked}>Toggle</button>
-        <Grow in={checked} {...(checked ? { timeout: 1000 } : {})}>
-          <Typography variant="h1" component="h2" gutterBottom>
-            Hi, I&apos;m Brennan
-          </Typography>
-        </Grow>
-      </header>
+    <div className={styles}>
+      <BorderBox />
     </div>
   )
 }
