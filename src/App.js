@@ -1,19 +1,19 @@
 import React from 'react'
 import './App.css'
 import { css } from 'emotion'
-import BorderBox from './components/BorderBox'
+import Resume from './components/Resume'
 
 const styles = css`
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
+  margin-top: 3rem;
 `
 
 function App() {
   return (
     <div className={styles}>
-      <BorderBox />
+      <Resume />
     </div>
   )
 }
