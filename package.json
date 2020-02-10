@@ -2,6 +2,7 @@
   "name": "brennanglynn",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://brennanglynn.github.io/brennanglynn.com",
   "dependencies": {
     "@material-ui/core": "^4.8.1",
     "@material-ui/icons": "^4.9.1",
