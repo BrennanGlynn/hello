@@ -1,20 +1,16 @@
 import React from 'react'
-import './App.css'
 import { css } from 'emotion'
-import Resume from './components/Resume'
+import Details from './components/Details'
 
 const styles = css`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
+  margin: 4rem;
 `
 
 function App() {
   return (
-    <div className={styles}>
-      <Resume />
-    </div>
+    <article className={styles}>
+      <Details />
+    </article>
   )
 }
 
