@@ -16,7 +16,7 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "/?source=pwa",
+  "start_url": "https://brennanglynn.com",
   "background_color": "#fff",
   "display": "fullscreen",
   "scope": "/",
