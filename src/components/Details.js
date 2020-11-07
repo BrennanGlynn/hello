@@ -1,12 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { css } from 'emotion'
-import { Card } from '@material-ui/core'
-import { ExpandMore } from '@material-ui/icons'
-import CardContent from '@material-ui/core/CardContent'
-import CardActions from '@material-ui/core/CardActions'
 import Typography from '@material-ui/core/Typography'
-import IconButton from '@material-ui/core/IconButton'
-import Collapse from '@material-ui/core/Collapse'
 import resume from '../assets/resume.pdf'
 
 const styles = css`
@@ -46,6 +40,7 @@ const styles = css`
     }
 
     li {
+      margin-top: 0.5rem;
       a {
         font-weight: 400;
         transition: color 0.15s ease-in;
